@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9EFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/backgroundaltoprincipal"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="-130dp"/>
+
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Seja bem vindo a nossa plataforma! "
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Estamos aqui para te desenvolver profissionalmente e te alocar no mercado de trabalho, e o melhor: de forma gratuita" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/imgprincipal"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="-100dp"
+            android:layout_height="80dp"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="Quero Estudar" />
+
+        <Button
+            android:layout_width="-100dp"
+            android:layout_height="80dp"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="Quero Contratar" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/backgroundbaixoprincipal2"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
