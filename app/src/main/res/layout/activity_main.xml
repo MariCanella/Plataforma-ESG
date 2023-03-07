@@ -2,8 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#F9EFFF"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -41,6 +43,7 @@
         android:layout_marginTop="10dp">
 
         <Button
+            android:id="@+id/loginEstudante"
             android:layout_width="-100dp"
             android:layout_height="80dp"
             android:layout_margin="24dp"
@@ -48,6 +51,7 @@
             android:text="Quero Estudar" />
 
         <Button
+            android:id="@+id/loginEmpresa"
             android:layout_width="-100dp"
             android:layout_height="80dp"
             android:layout_margin="24dp"
